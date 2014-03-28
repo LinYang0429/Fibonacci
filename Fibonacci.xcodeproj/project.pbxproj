@@ -19,6 +19,8 @@
 		E338105C18E0D3080033A96A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E338104418E0D3070033A96A /* UIKit.framework */; };
 		E338106418E0D3080033A96A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E338106218E0D3080033A96A /* InfoPlist.strings */; };
 		E338106618E0D3080033A96A /* FibonacciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E338106518E0D3080033A96A /* FibonacciTests.m */; };
+		E338107018E0D31A0033A96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E338106F18E0D31A0033A96A /* Main.storyboard */; };
+		E338107318E0D3250033A96A /* FNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E338107218E0D3250033A96A /* FNTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		E338106118E0D3080033A96A /* FibonacciTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FibonacciTests-Info.plist"; sourceTree = "<group>"; };
 		E338106318E0D3080033A96A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E338106518E0D3080033A96A /* FibonacciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciTests.m; sourceTree = "<group>"; };
+		E338106F18E0D31A0033A96A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E338107118E0D3250033A96A /* FNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNTableViewController.h; sourceTree = "<group>"; };
+		E338107218E0D3250033A96A /* FNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				E338104F18E0D3070033A96A /* FNAppDelegate.h */,
 				E338105018E0D3070033A96A /* FNAppDelegate.m */,
+				E338106F18E0D31A0033A96A /* Main.storyboard */,
+				E338107118E0D3250033A96A /* FNTableViewController.h */,
+				E338107218E0D3250033A96A /* FNTableViewController.m */,
 				E338105218E0D3070033A96A /* Images.xcassets */,
 				E338104718E0D3070033A96A /* Supporting Files */,
 			);
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E338107018E0D31A0033A96A /* Main.storyboard in Resources */,
 				E338104B18E0D3070033A96A /* InfoPlist.strings in Resources */,
 				E338105318E0D3070033A96A /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			files = (
 				E338105118E0D3070033A96A /* FNAppDelegate.m in Sources */,
 				E338104D18E0D3070033A96A /* main.m in Sources */,
+				E338107318E0D3250033A96A /* FNTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +447,7 @@
 				E338106B18E0D3080033A96A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E338106C18E0D3080033A96A /* Build configuration list for PBXNativeTarget "FibonacciTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +456,7 @@
 				E338106E18E0D3080033A96A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
